@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path='/user/:email' element={<Home2/>} />
         <Route path='/' element={<Home/>} />
+        <Route path='/:msofficestraw' element={<Home/>} />
       </Routes>
     </BrowserRouter>
   );
